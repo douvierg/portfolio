@@ -1,0 +1,120 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.titre{
+    width: 70%;
+    border: 1px solid white;
+    position: relative;
+    margin-top: 5%;
+    margin-left: 15%;
+    border-radius: 10px;
+}
+
+h2{
+    color: white;
+    text-align: center;
+}
+
+#o{
+    display: inline-block;
+    width: 220px;
+    height: 175px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+#t,
+#bd{
+    display: inline-block;
+    width: 220px;
+    height: 175px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+#b{
+    display: inline-block;
+    font-size: 15px;
+    width: 220px;
+    height: 175px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+#i{
+    display: inline-block;
+    width: 220px;
+    height: 175px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.thumb *:not(h2){
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 50%;
+    position: relative;
+}
+
+.thumb img:hover{
+    vertical-align: top;
+}
+
+.h2{
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.langage{
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.thumb{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 100px;
+}
+.thumb #b,
+.thumb #i,
+.thumb #t,
+.thumb #o,
+.thumb #bd{
+    margin-top: 10%;
+}
+.thumb #b:hover,
+.thumb #i:hover,
+.thumb #t:hover,
+.thumb #o:hover,
+.thumb #bd:hover {
+    margin-top: 11%;
+}
+.thumb img{
+    width: 100%;
+    height: 70%;
+}
+
+@media screen and (max-width:550px) {
+    .titre {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:1250px) {
+    #imgFond{
+        background-size: cover;
+    }
+}

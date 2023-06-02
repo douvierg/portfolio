@@ -1,0 +1,27 @@
+        <div id="description">
+            <h2>O D O M O</h2>
+            <p>Le projet Odomo consiste à compléter le programme d'une centrale domotique. 
+                Cette dernière ayant comme fonctionalitées l'affichage des données météorologiques, 
+                la gestion d'une chaudière ainsi que la gestion d'un potager</p>
+        </div>
+
+        <div id="milieuPage">
+            <div id="parties">
+                <div id="p1">
+                    <h3>Analyse du sujet</h3>
+                    <p>Lecture du sujet, et compréhension du besoin</p>
+                </div>
+                <div id="p2">
+                    <h3>Réalisation de la partie météo</h3>
+                    <p>Cette partie concerne l'affichage des température intérrieur et extérieur ainsi que la météo des prochains jours</p>
+                </div>
+                <div id="p3">
+                    <h3>réalisation de la partie chauffage</h3>
+                    <p>Cette partie concerne l'automatisation d'un chauffage selon la température extérieur</p>
+                </div>
+                <div id="p4">
+                    <h3 id="p7">réalisation de la partie jardin</h3>
+                    <p id="p8">Cette partie concerne l'automatisation de l'arrosage selon la température extérieur ainsi que la météo actuelle et à venir</p>
+                </div>
+            </div>
+        </div>
