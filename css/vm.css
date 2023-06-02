@@ -6,7 +6,7 @@ body{
 }
 
 #milieuPage{
-    border: 2px solid red;
+    border: 2px solid white;
     margin: 50px;
     border-radius: 10px;
     display: flex;
@@ -22,12 +22,15 @@ body{
 }
 
 #titre{
-    font-size: larger;
+    font-size: small;
     color: white;
     border-bottom: 2px solid red;
     padding-left: 50px;
     padding-right: 50px;    
     margin:50px;
+    word-spacing: 1%;
+    letter-spacing: 10px;
+    text-align: center;
 }
 
 #texte{
@@ -90,7 +93,7 @@ body{
 @media screen and (max-width:1200px) {
     #milieuPage{
         flex-direction: column;
-        border: 2px solid red;
+        border: 2px solid white;
         align-items: center;
         padding-bottom:50px ;
         margin-bottom: 100px;

@@ -107,14 +107,5 @@ h2{
     height: 70%;
 }
 
-@media screen and (max-width:550px) {
-    .titre {
-        font-size: 15px;
-    }
-}
 
-@media screen and (max-width:1250px) {
-    #imgFond{
-        background-size: cover;
-    }
-}
+

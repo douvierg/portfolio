@@ -49,6 +49,8 @@ body{
     font-size: larger;
     float: left;
     margin: 35px;
+    word-spacing: 20px;
+    letter-spacing: 10px;
 }
 
 #milieuPageDroite{
