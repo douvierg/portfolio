@@ -6,7 +6,7 @@ body{
 }
 
 #milieuPage{
-    border: 2px solid red;
+    border: 2px solid white;
     margin: 50px;
     border-radius: 10px;
     display: flex;
@@ -79,12 +79,11 @@ body{
 
     #milieuPage{
         flex-direction: column;
-        border: 2px solid red;
+        border: 2px solid white;
         align-items: center;
     }
 
     #titre{
-        font-size: ;
         text-align: center;
     }
 }
@@ -92,7 +91,7 @@ body{
 @media screen and (max-width:1200px) {
     #milieuPage{
         flex-direction: column;
-        border: 2px solid red;
+        border: 2px solid white;
         align-items: center;
         padding-bottom:50px ;
         margin-bottom: 100px;
