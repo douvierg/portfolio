@@ -1,9 +1,9 @@
 body{
     margin: 0;
     padding: 0;
-    /*background-image: url("../img/fond\ gris.jpg");*/
+    /*background-image: url("../img/fond\ gris.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover;*/
 }
 
 #messageDeBienvenue{
@@ -34,10 +34,4 @@ body{
     text-align: center;
     font-size: large;
 
-}
-
-#imgFond{
-    width: 100%;
-    height: 100%;
-    position: absolute;
 }
