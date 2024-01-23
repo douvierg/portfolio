@@ -26,7 +26,11 @@ h2{
 }
 
 #t,
-#bd{
+#bd,
+#h,
+#c,
+#l,
+#g{
     display: inline-block;
     width: 220px;
     height: 175px;
@@ -59,9 +63,7 @@ h2{
     position: relative;
 }
 
-.thumb img:hover{
-    vertical-align: top;
-}
+
 
 .h2{
     text-align: center;
@@ -92,14 +94,22 @@ h2{
 .thumb #i,
 .thumb #t,
 .thumb #o,
-.thumb #bd{
+.thumb #bd,
+.thumb #h,
+.thumb #c,
+.thumb #l,
+.thumb #g{
     margin-top: 10%;
 }
 .thumb #b:hover,
 .thumb #i:hover,
 .thumb #t:hover,
 .thumb #o:hover,
-.thumb #bd:hover {
+.thumb #bd:hover, 
+.thumb #h:hover,
+.thumb #c:hover,
+.thumb #l:hover,
+.thumb #g:hover{
     margin-top: 11%;
 }
 .thumb img{
